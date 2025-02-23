@@ -13,15 +13,17 @@ In this example, if you wanted to resize /data (sda3), you'd be working with /de
 ## 2. Unmount the Partition (If Necessary):
 
 If the partition is mounted, you must unmount it before resizing.
-Example: sudo umount /dev/sda3
+<br>Example: sudo umount /dev/sda3
 If you are resizing the root partition, you will have to do it from a live usb or another recovery environment.
 
 ## 3. Extend the Partition (Using fdisk, parted, or growpart):
 
-Before resizing the file system, you must extend the partition itself. This is done using tools like fdisk, parted, or growpart. growpart is recommended for cloud environments.
-Using growpart (Recommended for Cloud):
-sudo growpart /dev/sda 3 (where /dev/sda is the device and 3 is the partition number).
-This command tells growpart to extend the third partition of /dev/sda to fill the available space.
+Before resizing the file system, you must extend the partition itself.
+<br>This is done using tools like fdisk, parted, or growpart. growpart is recommended for cloud environments.
+<br>Using growpart (Recommended for Cloud):
+<br>sudo growpart /dev/sda 3 (where /dev/sda is the device and 3 is the partition number).
+<br>This command tells growpart to extend the third partition of /dev/sda to fill the available space.
+
 Using parted:
 sudo parted /dev/sda
 resizepart
