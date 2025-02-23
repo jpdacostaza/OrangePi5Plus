@@ -3,7 +3,7 @@
 Booting directly from NVMe SSD only works after installing the bootloader on SPI Flash.
 <br>· In order to do this, First install the OS to my SD card, and boot</br>
 ```
-Here are the steps:
+Steps as Follows :
 
 1. Use etcher (or your preferred imaging tool) to write the OS image to an SD card
 2. Use etcher again to write the same image to your NVMe SSD <-- Duplicate frst step to SSD
