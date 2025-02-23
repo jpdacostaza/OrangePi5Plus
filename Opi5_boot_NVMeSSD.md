@@ -10,7 +10,7 @@ Here are the steps:
 3. Insert both the SD card and the NVMe SSD into the Orange Pi 5
 4. Power on the Orange Pi (the first time around it will boot from the SD card)
 5. SSH into the Orange Pi 5, and run: orangepi-config (or armbian-install if you're using armbian)
-5. Select boot options, then select: Install/Update the bootloader on SPI Flash (this will be Install/Update the bootloader on MTD Flash if using armbian)
+5. Select boot options, then select: Install/Update the bootloader on SPI Flash (To install Bootloader)
 ```
 
 It may take a few minutes to finish installing the bootloader.
