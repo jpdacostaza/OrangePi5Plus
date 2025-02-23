@@ -4,6 +4,7 @@ Booting directly from NVMe SSD only works after installing the bootloader on SPI
 In order to do this, First install the OS to my SD card, and boot
 ```
 Here are the steps:
+
 Use etcher (or your preferred imaging tool) to write the OS image to an SD card
 Use etcher again to write the same image to your NVMe SSD
 Insert both the SD card and the NVMe SSD into the Orange Pi 5
