@@ -24,7 +24,7 @@ The table below lists the available Ubuntu images, their last modification dates
 | [ubuntu-24.10-preinstalled-server-arm64-orangepi-5-plus.img.xz.sha256](https://github.com/Joshua-Riek/ubuntu-rockchip/releases/download/v2.4.0/ubuntu-24.10-preinstalled-server-arm64-orangepi-5-plus.img.xz.sha256) | 2024-10-22 23:50    | 128 -     |         -                                        |
 
 Download sources provided thanks to [Joshua-Reik](https://joshua-riek.github.io/ubuntu-rockchip-download/boards/orangepi-5-plus.html)
-Orange Pi 5 Plus - [Armbian sources]( https://www.armbian.com/orange-pi-5-plus/)
+<br>Orange Pi 5 Plus - [Armbian sources]( https://www.armbian.com/orange-pi-5-plus/)
 ## Important Notes
 
 * **LTS Versions:** The images marked "LTS" are Long Term Support releases, which receive updates and security patches for an extended period.
