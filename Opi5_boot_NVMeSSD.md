@@ -1,5 +1,5 @@
-##Booting Orange PI 5 from NVMe SSD
-```
+## Booting Orange PI 5 from NVMe SSD
+
 Booting directly from NVMe SSD only works after installing the bootloader on SPI Flash.
 In order to do this, First install the OS to my SD card, and boot
 ```
