@@ -1,6 +1,7 @@
 ## 1. Determine the Device and Partition:
 
-First, you need to identify the device and partition you want to resize. Use the lsblk or fdisk -l commands to list your block devices and their partitions.
+First, you need to identify the device and partition you want to resize. 
+<br>Use the lsblk or fdisk -l commands to list your block devices and their partitions.
 Example lsblk output:
 <br>NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 <br>sda      8:0    0   20G  0 disk
