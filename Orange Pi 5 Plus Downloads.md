@@ -1,10 +1,12 @@
 # Downloads for the Orange Pi 5 Plus
 
-This section provides download links for Ubuntu operating system images specifically tailored for the Orange Pi 5 Plus single-board computer (SBC). These images are based on Ubuntu for various Rockchip SBCs.
+This section provides download links for Ubuntu operating system images specifically tailored for the Orange Pi 5 Plus single-board computer (SBC).
+<br>These images are based on Ubuntu for various Rockchip SBCs.
 
 ## Available Downloads
 
-The table below lists the available Ubuntu images, their last modification dates, file sizes, and brief descriptions. Each image is provided in `.img.xz` format, which is a compressed disk image. Additionally, a corresponding `.sha256` file is provided for verifying the integrity of the downloaded image.
+The table below lists the available Ubuntu images, their last modification dates, file sizes, and brief descriptions. 
+<br>Each image is provided in `.img.xz` format, which is a compressed disk image. Additionally, a corresponding `.sha256` file is provided for verifying the integrity of the downloaded image.
 
 | File                                                    | Last modified        | Size      | Description                                     |
 |---------------------------------------------------------|----------------------|-----------|-------------------------------------------------|
