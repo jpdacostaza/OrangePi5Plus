@@ -1,6 +1,7 @@
 # Resizing a Filesystem with resize2fs
 
-`resize2fs` is a command-line utility for resizing ext2, ext3, and ext4 file systems. This guide explains how to expand a partition to its full capacity.
+`resize2fs` is a command-line utility for resizing ext2, ext3, and ext4 file systems. 
+<br>This guide explains how to expand a partition to its full capacity.
 
 **Important:** Always back up your data before performing any partition resizing. Data loss can occur if something goes wrong.
 
