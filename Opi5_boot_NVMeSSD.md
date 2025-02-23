@@ -13,8 +13,7 @@ Here are the steps:
 5. Select boot options, then select: Install/Update the bootloader on SPI Flash (To install Bootloader)
 ```
 
-It may take a few minutes to finish installing the bootloader.
+## It may take a few minutes to finish installing the bootloader.
 
 Once this is complete, Remove the SD card and the device will now be able to boot directly from NVMe
 (SD card is no longer needed -- this is true even if you decide to re-image your NVMe SSD)
-
