@@ -14,5 +14,4 @@ Here are the steps:
 ```
 ## It may take a few minutes to finish installing the bootloader.
 Once this is complete, Remove the SD card and the device will now be able to boot directly from NVMe
-
 (SD card is no longer needed -- this is true even if you decide to re-image your NVMe SSD)
