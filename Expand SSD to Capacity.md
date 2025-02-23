@@ -25,23 +25,24 @@ Before resizing the file system, you must extend the partition itself.
 <br>This command tells growpart to extend the third partition of /dev/sda to fill the available space.
 
 Using parted:
-sudo parted /dev/sda
-resizepart
-3 (partition number)
-100% (or the desired end size)
-quit
-Using fdisk (More complex):
-sudo fdisk /dev/sda
-p (print partition table)
-d (delete the partition)
-3 (partition number)
-n (new partition)
-p (primary partition)
-3 (partition number)
-Press Enter for the first sector (default).
-Press Enter for the last sector (default, to use all available space).
-w (write changes and exit).
-After using fdisk, you may need to use partprobe /dev/sda to have the kernel recognize the new partition size.
+<br>sudo parted /dev/sda
+<br>resizepart
+<br>3 (partition number)
+<br>100% (or the desired end size)
+<br>quit
+
+<br>Using fdisk (More complex):
+<br>sudo fdisk /dev/sda
+<br>p (print partition table)
+<br>d (delete the partition)
+<br>3 (partition number)
+<br>n (new partition)
+<br>p (primary partition)
+<br>3 (partition number)
+<br>Press Enter for the first sector (default).
+<br>Press Enter for the last sector (default, to use all available space).
+<br>w (write changes and exit).
+<br>After using fdisk, you may need to use partprobe /dev/sda to have the kernel recognize the new partition size.
 
 ## 4. Resize the File System (Using resize2fs):
 
