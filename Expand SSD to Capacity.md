@@ -2,7 +2,7 @@
 
 First, you need to identify the device and partition you want to resize. 
 <br>Use the lsblk or fdisk -l commands to list your block devices and their partitions.
-Example lsblk output:
+<br>Example lsblk output:
 <br>NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 <br>sda      8:0    0   20G  0 disk
 <br>├─sda1   8:1    0   10G  0 part /
